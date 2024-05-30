@@ -1,4 +1,4 @@
-package br.com.monkey.aula_28_05;
+package br.com.monkey.aula_28_05.viewer;
 
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.monkey.aula_28_05.R;
 import br.com.monkey.aula_28_05.model.Categoria;
 import br.com.monkey.aula_28_05.model.Produto;
 

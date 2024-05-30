@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
         CadastrarCategoria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, br.com.monkey.aula_28_05.CadastrarCategoria.class));
+                startActivity(new Intent(MainActivity.this, br.com.monkey.aula_28_05.viewer.CadastrarCategoria.class));
             }
         });
         CadastrarProduto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, br.com.monkey.aula_28_05.CadastrarProduto.class));
+                startActivity(new Intent(MainActivity.this, br.com.monkey.aula_28_05.viewer.CadastrarProduto.class));
             }
         });
     }

@@ -1,4 +1,4 @@
-package br.com.monkey.aula_28_05;
+package br.com.monkey.aula_28_05.viewer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
